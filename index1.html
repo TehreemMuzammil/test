@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soan Biryani and Sheermal House | Jacob Lines, Karachi</title>
+<meta name="description" content="Fresh chicken biryani, yakhni pulao, karahi, korma, sheermal and taftan in Central Jacob Lines, Karachi. Open daily 11 AM to 1 AM. Order on WhatsApp.">
+<meta property="og:title" content="Soan Biryani and Sheermal House">
+<meta property="og:description" content="Biryani, pulao and fresh sheermal in Jacob Lines, Karachi. Order on WhatsApp: 0336 3390065.">
+<meta name="theme-color" content="#5A1E14">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2716%27 fill=%27%235A1E14%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%279%27 fill=%27%23F4B23E%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --maroon:#5A1E14; --maroon-2:#7A2C1C; --saffron:#E88A1A; --saffron-2:#F4B23E;
+  --cream:#FBF4E8; --paper:#FFFDF8; --ink:#2A1A14; --muted:#7A6457; --line:#EADBC4;
+  --green:#1F8A4C; --radius:14px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:"DM Serif Display",Georgia,serif;font-weight:400;margin:0;line-height:1.15}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:999px;padding:12px 20px;font:600 15px Inter,sans-serif;cursor:pointer;text-decoration:none;transition:transform .15s,background .15s}
+.btn:active{transform:scale(.97)}
+.btn-wa{background:var(--green);color:#fff}
+.btn-wa:hover{background:#18743F}
+.btn-ghost{background:transparent;color:var(--cream);box-shadow:inset 0 0 0 1.5px rgba(251,244,232,.5)}
+.btn-ghost:hover{background:rgba(251,244,232,.1)}
+.wa-ico{width:18px;height:18px;fill:currentColor}
+
+/* header */
+header{position:sticky;top:0;z-index:20;background:var(--maroon);color:var(--cream)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{font-family:"DM Serif Display",serif;font-size:21px;text-decoration:none;white-space:nowrap}
+.brand span{color:var(--saffron-2)}
+.nav-links{display:flex;gap:22px;font-size:14px}
+.nav-links a{text-decoration:none;opacity:.85}
+.nav-links a:hover{opacity:1}
+.nav-call{font-size:14px;font-weight:600;text-decoration:none;color:var(--saffron-2)}
+
+/* hero */
+.hero{background:var(--maroon);color:var(--cream);overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center;padding-top:40px;padding-bottom:56px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:500;color:var(--saffron-2);letter-spacing:.02em}
+.status-dot{width:8px;height:8px;border-radius:50%;background:#7BD88F;box-shadow:0 0 0 4px rgba(123,216,143,.2)}
+.status-dot.closed{background:#E26D5A;box-shadow:0 0 0 4px rgba(226,109,90,.2)}
+.hero h1{font-size:clamp(38px,6vw,64px);margin:14px 0 16px}
+.hero h1 em{font-style:normal;color:var(--saffron-2)}
+.hero p.lead{font-size:17px;max-width:460px;opacity:.9;margin:0 0 26px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:10px}
+.hero-img{position:relative}
+.hero-img img{width:100%;max-width:440px;aspect-ratio:1;object-fit:cover;margin-left:auto;border-radius:50%;border:8px solid var(--saffron)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.price-tag{position:absolute;left:4%;bottom:10%;background:var(--paper);color:var(--ink);border-radius:16px;padding:10px 16px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.price-tag small{display:block;font-size:12px;color:var(--muted)}
+.price-tag b{font-family:"DM Serif Display",serif;font-weight:400;font-size:22px}
+
+/* facts strip */
+.facts{background:var(--saffron);color:var(--maroon)}
+.facts .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px;padding-top:14px;padding-bottom:14px;font-size:14px;font-weight:600}
+
+/* sections */
+section{padding:64px 0}
+.sec-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:24px;flex-wrap:wrap}
+.sec-head h2{font-size:clamp(30px,4.5vw,42px)}
+.sec-head p{margin:6px 0 0;color:var(--muted)}
+
+/* favourites */
+.favs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.fav{background:var(--paper);border-radius:var(--radius);overflow:hidden;border:1px solid var(--line)}
+.fav img{aspect-ratio:1;object-fit:cover;width:100%}
+.fav div{padding:12px 14px 14px}
+.fav h3{font-size:20px}
+.fav p{margin:2px 0 0;color:var(--muted);font-size:14px}
+
+/* menu */
+.chips{position:sticky;top:60px;z-index:10;background:var(--cream);display:flex;gap:8px;overflow-x:auto;padding:12px 0;margin-bottom:8px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:8px 16px;font:500 14px Inter,sans-serif;color:var(--ink);text-decoration:none}
+.chip:hover{border-color:var(--saffron)}
+.cat{scroll-margin-top:130px;margin-top:28px}
+.cat h3{font-size:26px;margin-bottom:12px}
+.items{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.item{display:flex;gap:14px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:12px}
+.item img{width:84px;height:84px;border-radius:12px;flex:none;object-fit:cover}
+.item .info{flex:1;min-width:0}
+.item h4{margin:0;font-size:16px;font-weight:600}
+.item p{margin:2px 0 6px;font-size:13.5px;color:var(--muted);line-height:1.4}
+.item .price{font-weight:600;color:var(--maroon-2)}
+.item .price small{font-weight:500;color:var(--muted)}
+.item .was{color:var(--muted);font-size:13px}
+.item .save{display:inline-block;background:var(--saffron);color:#fff;font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:999px;margin-left:2px}
+.deals .item{border-color:var(--saffron);border-width:1.5px}
+.qty{display:flex;align-items:center;gap:6px;flex:none}
+.qty button{width:34px;height:34px;border-radius:50%;border:1.5px solid var(--saffron);background:var(--paper);color:var(--maroon);font-size:18px;line-height:1;cursor:pointer;display:grid;place-items:center}
+.qty button.add{background:var(--saffron);color:#fff;border-color:var(--saffron)}
+.qty button:hover{filter:brightness(.95)}
+.qty span{min-width:18px;text-align:center;font-weight:600}
+.drink-pick{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+select{font:500 14px Inter,sans-serif;padding:7px 10px;border-radius:10px;border:1px solid var(--line);background:#fff;color:var(--ink)}
+
+/* gallery */
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:200px 200px;gap:12px}
+.gallery img{width:100%;height:100%;object-fit:cover;border-radius:var(--radius)}
+.gallery img:first-child{grid-row:span 2}
+.gallery img:last-child{grid-column:span 2}
+
+/* visit */
+.visit{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.visit-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:28px;align-items:stretch}
+.hours{list-style:none;padding:0;margin:16px 0 22px}
+.hours li{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px dashed var(--line);font-size:15px}
+.hours li.today{font-weight:600;color:var(--maroon-2)}
+.contact p{margin:6px 0}
+.map{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);min-height:320px;background:var(--line)}
+.map iframe{width:100%;height:100%;min-height:320px;border:0;display:block}
+.visit-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.btn-dark{background:var(--maroon);color:var(--cream)}
+.btn-line{background:transparent;color:var(--maroon);box-shadow:inset 0 0 0 1.5px var(--maroon)}
+
+footer{background:var(--maroon);color:var(--cream);padding:28px 0 110px;font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;opacity:.85}
+
+/* cart bar + sheet */
+.cartbar{position:fixed;left:50%;bottom:16px;transform:translate(-50%,140%);width:min(560px,calc(100% - 32px));z-index:30;background:var(--green);color:#fff;border-radius:18px;padding:12px 14px 12px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;box-shadow:0 12px 30px rgba(0,0,0,.25);transition:transform .25s ease,visibility .25s;visibility:hidden;cursor:pointer;border:0;font:inherit;text-align:left}
+.cartbar.show{transform:translate(-50%,0);visibility:visible}
+.cartbar b{font-size:16px}
+.cartbar small{display:block;opacity:.85;font-size:13px}
+.cartbar .go{background:#fff;color:var(--green);border-radius:999px;padding:9px 14px;font-weight:600;font-size:14px;white-space:nowrap}
+.sheet-bg{position:fixed;inset:0;background:rgba(42,26,20,.5);z-index:40;display:none}
+.sheet-bg.open{display:block}
+.sheet{position:fixed;left:50%;bottom:0;transform:translate(-50%,100%);width:min(560px,100%);max-height:88vh;overflow:auto;background:var(--paper);border-radius:22px 22px 0 0;z-index:50;padding:22px 18px 18px;transition:transform .25s ease,visibility .25s;visibility:hidden}
+.sheet.open{transform:translate(-50%,0);visibility:visible}
+.sheet h3{font-size:26px}
+.sheet .close{position:absolute;right:14px;top:14px;width:36px;height:36px;border-radius:50%;border:0;background:var(--cream);font-size:20px;cursor:pointer}
+.line{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.line .nm{font-weight:500}
+.line .nm small{display:block;color:var(--muted);font-weight:400}
+.total{display:flex;justify-content:space-between;font-weight:600;font-size:18px;padding:14px 0 6px}
+.note{font-size:13px;color:var(--muted);margin:0 0 14px}
+.field{display:block;margin:10px 0}
+.field span{display:block;font-size:13px;font-weight:500;margin-bottom:4px}
+.field input,.field textarea{width:100%;font:15px Inter,sans-serif;padding:11px 12px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink)}
+.field textarea{min-height:70px;resize:vertical}
+.seg{display:flex;gap:8px;margin:12px 0 4px}
+.seg label{flex:1;text-align:center;border:1.5px solid var(--line);border-radius:12px;padding:10px;cursor:pointer;font-weight:500;font-size:14px}
+.seg input{display:none}
+.seg input:checked+span{color:var(--maroon)}
+.seg label:has(input:checked){border-color:var(--saffron);background:#FFF4E2}
+.sheet .btn-wa{width:100%;justify-content:center;margin-top:12px;padding:14px}
+.err{color:#B3261E;font-size:13px;margin:4px 0 0;display:none}
+
+@media (max-width:820px){
+  .nav-links{display:none}
+  .hero .wrap{grid-template-columns:1fr;padding-top:28px;padding-bottom:40px}
+  .hero-img{order:-1;max-width:300px;margin:0 auto}
+  .price-tag{left:-4px;bottom:4%}
+  .favs{grid-template-columns:repeat(2,1fr);gap:12px}
+  .items{grid-template-columns:1fr}
+  .visit-grid{grid-template-columns:1fr}
+  .gallery{grid-template-columns:1fr 1fr;grid-template-rows:200px 140px 140px}
+  .gallery img:first-child{grid-column:span 2;grid-row:auto}
+  section{padding:48px 0}
+}
+@media (max-width:380px){.item img{width:68px;height:68px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">Soan <span>Biryani</span></a>
+    <nav class="nav-links"><a href="#favourites">Favourites</a><a href="#meal-deals">Deals</a><a href="#menu">Menu</a><a href="#visit">Visit</a></nav>
+    <a class="nav-call" href="tel:+923363390065">0336 3390065</a>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow"><span class="status-dot" id="dot"></span><span id="status">Open daily, 11 AM to 1 AM</span></span>
+        <h1>Biryani, pulao and <em>fresh sheermal</em> in Jacob Lines</h1>
+        <p class="lead">Soan Biryani and Sheermal House cooks fragrant biryani, slow-simmered yakhni pulao and karahi, with sheermal and taftan from the tandoor.</p>
+        <div class="hero-actions">
+          <a class="btn btn-wa" href="#menu">
+            <svg class="wa-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.1 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+            Order on WhatsApp
+          </a>
+          <a class="btn btn-ghost" href="tel:+923363390065">Call 0336 3390065</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="https://foodpanda.dhmedia.io/image/fd-pk/Products/100388034.jpg?width=900&height=900" alt="Chicken biryani at Soan Biryani" width="440" height="440">
+        <div class="price-tag"><small>Chicken biryani</small><b>Rs 400</b></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="facts">
+    <div class="wrap">
+      <span>Central Jacob Lines, Karachi</span>
+      <span>11:00 AM to 1:00 AM, every day</span>
+      <span>Pickup orders on WhatsApp: 0336 3390065</span>
+    </div>
+  </div>
+
+  <section id="favourites">
+    <div class="wrap">
+      <div class="sec-head"><div><h2>Customer favourites</h2><p>The dishes people come back for.</p></div></div>
+      <div class="favs">
+        <article class="fav"><img src="https://foodpanda.dhmedia.io/image/fd-pk/Products/100388034.jpg?width=500&height=500" alt="Chicken biryani" loading="lazy"><div><h3>Chicken biryani</h3><p>Rs 400</p></div></article>
+        <article class="fav"><img src="https://foodpanda.dhmedia.io/image/fd-pk/Products/100388035.jpg?width=500&height=500" alt="Beef yakhni pulao" loading="lazy"><div><h3>Beef yakhni pulao</h3><p>Rs 500</p></div></article>
+        <article class="fav"><img src="https://foodpanda.dhmedia.io/image/fd-pk/Products/100388048.jpg?width=500&height=500" alt="Sheermal" loading="lazy"><div><h3>Sheermal</h3><p>Rs 100</p></div></article>
+        <article class="fav"><img src="https://foodpanda.dhmedia.io/image/fd-pk/Products/100388038.jpg?width=500&height=500" alt="Chicken karahi" loading="lazy"><div><h3>Chicken karahi</h3><p>From Rs 350</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head"><div><h2>Menu</h2><p>Tap + to add dishes, send your order on WhatsApp, then pick it up from the shop.</p></div></div>
+      <nav class="chips" id="chips" aria-label="Menu categories"></nav>
+      <div id="menu-list"></div>
+    </div>
+  </section>
+
+  <section id="visit" class="visit">
+    <div class="wrap visit-grid">
+      <div class="contact">
+        <h2 style="font-size:clamp(30px,4.5vw,42px)">Visit us</h2>
+        <p style="color:var(--muted)">Central Jacob Lines, Karachi, Pakistan</p>
+        <ul class="hours" id="hours"></ul>
+        <p><b>Phone and WhatsApp:</b> <a href="tel:+923363390065">0336 3390065</a></p>
+        <div class="visit-actions">
+          <a class="btn btn-dark" href="https://maps.app.goo.gl/fSkLaNYyaxWe3ZSi9" target="_blank" rel="noopener">Get directions</a>
+          <a class="btn btn-line" href="https://www.foodpanda.pk/restaurant/z7wv/soan-biryani-and-sheermal-house-z7wv" target="_blank" rel="noopener">Order on foodpanda</a>
+        </div>
+      </div>
+      <div class="map">
+        <iframe title="Map showing Soan Biryani and Sheermal House" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q=24.8674555,67.0405576&z=16&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Soan Biryani and Sheermal House, Karachi</span>
+    <span>Prices in Pakistani rupees and may change.</span>
+  </div>
+</footer>
+
+<button class="cartbar" id="cartbar" aria-label="View your order">
+  <span><b id="cb-count">0 items</b><small id="cb-total">Rs 0</small></span>
+  <span class="go">View order</span>
+</button>
+
+<div class="sheet-bg" id="sheet-bg"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+  <button class="close" id="sheet-close" aria-label="Close">×</button>
+  <h3 id="sheet-title">Your order</h3>
+  <div id="lines"></div>
+  <div class="total"><span>Total</span><span id="sheet-total">Rs 0</span></div>
+  <p class="note">Pickup only for now. We'll reply on WhatsApp when your order is ready to collect from Central Jacob Lines.</p>
+  <label class="field"><span>Your name</span><input id="f-name" autocomplete="name" placeholder="Ahmed"></label>
+  <p class="err" id="err">Add your name so we know whose order it is.</p>
+  <button class="btn btn-wa" id="send">
+    <svg class="wa-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Z"/></svg>
+    Send pickup order on WhatsApp
+  </button>
+</div>
+
+<script>
+const WA = "923363390065";
+const MENU = [
+  {cat:"Meal deals", deal:true, items:[
+    {id:"d-biryani", name:"Biryani deal", desc:"Chicken biryani + 345 ml cold drink", price:470, was:500, img:"34"},
+    {id:"d-pulao", name:"Pulao deal", desc:"Beef yakhni pulao + 345 ml cold drink", price:560, was:600, img:"35"},
+    {id:"d-karahi", name:"Karahi roti meal", desc:"Chicken karahi + 2 naan + 345 ml cold drink", price:490, was:520, img:"38"},
+    {id:"d-korma", name:"Korma sheermal meal", desc:"Chicken korma + 2 sheermal + 345 ml cold drink", price:610, was:650, img:"37"},
+    {id:"d-dal", name:"Daal roti meal", desc:"Dal mash + 2 chapati + 345 ml cold drink", price:420, was:450, img:"43"},
+    {id:"d-chana", name:"Chana kulcha deal", desc:"Chana + 2 kulcha", price:400, was:430, img:"41"},
+    {id:"d-family", name:"Family deal", desc:"2 chicken biryani + chicken karahi + 4 naan + 1.5 litre cold drink", price:1450, was:1570, img:"38"}
+  ]},
+  {cat:"Rice specials", items:[
+    {id:"biryani", name:"Chicken biryani", desc:"Basmati rice layered with tender chicken and fragrant spices.", price:400, img:"34"},
+    {id:"beefpulao", name:"Beef yakhni pulao", desc:"Rice cooked in rich beef stock with soft beef pieces.", price:500, img:"35"},
+    {id:"aloochana", name:"Aloo chana yakhni pulao", desc:"Aromatic pulao with potatoes and chickpeas.", price:240, img:"36"}
+  ]},
+  {cat:"Salan and gravies", items:[
+    {id:"korma", name:"Chicken korma", desc:"Chicken braised in a rich, thick, aromatic gravy.", price:350, from:true, img:"37"},
+    {id:"karahi", name:"Chicken karahi", desc:"Wok-cooked chicken with tomato, ginger and green chilli.", price:350, from:true, img:"38"},
+    {id:"kaleji", name:"Chicken kaleji", desc:"Chicken liver cooked in a spicy, thick masala.", price:300, img:"39"},
+    {id:"chana", name:"Chana", desc:"Chickpeas simmered in a thick, savoury gravy.", price:250, img:"41"},
+    {id:"dalchana", name:"Dal chana", desc:"Split chickpea lentils, home style.", price:250, img:"42"},
+    {id:"dalmash", name:"Dal mash", desc:"White lentils with ginger and green chilli.", price:300, img:"43"},
+    {id:"anda", name:"Anda ghotala", desc:"Eggs scrambled into a rich, spicy masala.", price:300, img:"44"}
+  ]},
+  {cat:"Tandoor and roti", items:[
+    {id:"chapati", name:"Chapati", desc:"Fresh griddled flatbread.", price:25, img:"45"},
+    {id:"naan", name:"Naan", desc:"Soft bread baked in the tandoor.", price:35, img:"46"},
+    {id:"kulcha", name:"Kulcha", desc:"Leavened tandoor bread, rich and soft.", price:90, img:"47"},
+    {id:"sheermal", name:"Sheermal", desc:"Our namesake: lightly sweet saffron bread.", price:100, img:"48"},
+    {id:"taftan", name:"Taftan", desc:"Soft, mildly sweet bread with poppy seeds.", price:100, img:"49"}
+  ]},
+  {cat:"Cold drinks", drinks:{brands:["Pepsi","7up","Mountain Dew"], sizes:[["345 ml",100],["500 ml",160],["1 litre",220],["1.5 litre",280],["2.25 litre",350]]}}
+];
+
+const cart = {}; // key -> {name, price, qty}
+const rs = n => "Rs " + n.toLocaleString("en-PK");
+const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,"-");
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function qtyHTML(key){
+  const q = cart[key]?.qty || 0;
+  return q ? `<button aria-label="Remove one" data-k="${key}" data-d="-1">−</button><span>${q}</span><button aria-label="Add one" data-k="${key}" data-d="1">+</button>`
+           : `<button class="add" aria-label="Add to order" data-k="${key}" data-d="1">+</button>`;
+}
+
+function renderMenu(){
+  const chips = document.getElementById("chips"), list = document.getElementById("menu-list");
+  chips.innerHTML = MENU.map(c => `<a class="chip" href="#${slug(c.cat)}">${c.cat}</a>`).join("");
+  list.innerHTML = MENU.map(c => {
+    let body;
+    if (c.drinks){
+      const d = c.drinks;
+      body = `<div class="item"><img src="https://foodpanda.dhmedia.io/image/fd-pk/Products/100388050.jpg?width=300&height=300" alt="Cold drinks" loading="lazy"><div class="info"><h4>Cold drink</h4><p>${d.sizes.map(s=>s[0]+" "+rs(s[1])).join(" · ")}</p>
+        <div class="drink-pick"><select id="d-brand" aria-label="Drink">${d.brands.map(b=>`<option>${b}</option>`).join("")}</select>
+        <select id="d-size" aria-label="Size">${d.sizes.map((s,i)=>`<option value="${i}">${s[0]}, ${rs(s[1])}</option>`).join("")}</select></div></div>
+        <div class="qty"><button class="add" id="d-add" aria-label="Add drink to order">+</button></div></div>`;
+    } else {
+      body = c.items.map(it => `<div class="item"><img src="https://foodpanda.dhmedia.io/image/fd-pk/Products/1003880${it.img}.jpg?width=300&height=300" alt="${esc(it.name)}" loading="lazy">
+        <div class="info"><h4>${esc(it.name)}</h4><p>${esc(it.desc)}</p><span class="price">${it.from?"<small>from </small>":""}${rs(it.price)}</span>${it.was?` <s class="was">${rs(it.was)}</s> <span class="save">Save ${rs(it.was-it.price)}</span>`:""}</div>
+        <div class="qty" id="q-${it.id}">${qtyHTML(it.id)}</div></div>`).join("");
+    }
+    return `<div class="cat${c.deal?" deals":""}" id="${slug(c.cat)}"><h3>${c.cat}</h3><div class="items">${body}</div></div>`;
+  }).join("");
+}
+
+function findItem(id){ for (const c of MENU) for (const it of (c.items||[])) if (it.id===id) return it; }
+
+function change(key, d){
+  if (!cart[key]){ const it = findItem(key); cart[key] = {name: it.name + (it.from ? " (starting size)" : ""), price: it.price, qty: 0}; }
+  cart[key].qty += d;
+  if (cart[key].qty <= 0) delete cart[key];
+  refresh();
+}
+
+function refresh(){
+  for (const c of MENU) for (const it of (c.items||[])){ const el = document.getElementById("q-"+it.id); if (el) el.innerHTML = qtyHTML(it.id); }
+  const lines = Object.entries(cart);
+  const count = lines.reduce((a,[,v])=>a+v.qty,0), total = lines.reduce((a,[,v])=>a+v.qty*v.price,0);
+  document.getElementById("cb-count").textContent = count + (count===1?" item":" items");
+  document.getElementById("cb-total").textContent = rs(total);
+  document.getElementById("cartbar").classList.toggle("show", count>0);
+  document.getElementById("sheet-total").textContent = rs(total);
+  document.getElementById("lines").innerHTML = lines.map(([k,v]) => `<div class="line"><span class="nm">${esc(v.name)}<small>${rs(v.price)} each</small></span><span class="qty">${qtyHTML(k)}</span></div>`).join("");
+  if (!count) closeSheet();
+}
+
+document.addEventListener("click", e => {
+  const b = e.target.closest("button[data-k]");
+  if (b){
+    const k = b.dataset.k, d = +b.dataset.d;
+    if (cart[k] || findItem(k)) change(k, d);
+  }
+});
+
+document.addEventListener("click", e => {
+  if (e.target.closest("#d-add")){
+    const brand = document.getElementById("d-brand").value, i = +document.getElementById("d-size").value;
+    const [size, price] = MENU.find(c=>c.drinks).drinks.sizes[i];
+    const key = "drink-" + slug(brand) + "-" + i;
+    if (!cart[key]) cart[key] = {name: `${brand} ${size}`, price, qty: 0};
+    cart[key].qty++; refresh();
+  }
+});
+
+const sheet = document.getElementById("sheet"), bg = document.getElementById("sheet-bg");
+function openSheet(){ sheet.classList.add("open"); bg.classList.add("open"); }
+function closeSheet(){ sheet.classList.remove("open"); bg.classList.remove("open"); }
+document.getElementById("cartbar").onclick = openSheet;
+document.getElementById("sheet-close").onclick = closeSheet;
+bg.onclick = closeSheet;
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeSheet(); });
+
+["f-name"].forEach(id => document.getElementById(id).addEventListener("input", () => document.getElementById("err").style.display="none"));
+
+document.getElementById("send").onclick = () => {
+  const name = document.getElementById("f-name").value.trim();
+  const err = document.getElementById("err");
+  if (!name){ err.style.display = "block"; return; }
+  const lines = Object.values(cart);
+  const total = lines.reduce((a,v)=>a+v.qty*v.price,0);
+  const msg = ["Assalam o Alaikum! New order from the website:", "",
+    ...lines.map(v => `• ${v.qty} × ${v.name} = ${rs(v.qty*v.price)}`), "",
+    `Total: ${rs(total)}`, "Order type: Pickup", `Name: ${name}`].join("\n");
+  window.open(`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`, "_blank", "noopener");
+};
+
+// Hours with today highlighted and live open/closed status (Karachi time, UTC+5)
+(function(){
+  const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  const now = new Date(Date.now() + (new Date().getTimezoneOffset() + 300) * 60000);
+  const today = now.getDay(), h = now.getHours();
+  document.getElementById("hours").innerHTML = [1,2,3,4,5,6,0].map(d =>
+    `<li class="${d===today?"today":""}"><span>${days[d]}${d===today?" (today)":""}</span><span>11:00 AM to 1:00 AM</span></li>`).join("");
+  const open = h >= 11 || h < 1;
+  document.getElementById("status").textContent = open ? "Open now · until 1 AM" : "Closed now · opens at 11 AM";
+  document.getElementById("dot").classList.toggle("closed", !open);
+  document.getElementById("yr").textContent = now.getFullYear();
+})();
+
+renderMenu(); refresh();
+</script>
+</body>
+</html>
